@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6608F5D31D6E0243009CDA06 /* ShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4DF1D6829E600E14451 /* ShadowViewController.m */; };
+		6608F5D41D6E0259009CDA06 /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A28341D6DFFA5001B5C13 /* SnowViewController.m */; };
+		660F896D1D6F39EF00AB2934 /* SkewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F896C1D6F39EF00AB2934 /* SkewView.m */; };
+		660F89701D6F3D5000AB2934 /* SkewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F896F1D6F3D5000AB2934 /* SkewViewController.m */; };
+		660F89731D6F3FC800AB2934 /* BlendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F89721D6F3FC800AB2934 /* BlendView.m */; };
+		661804E21D6B48D700BB0AC8 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668E75331D69FA910036E731 /* DrawView.m */; };
+		661A282C1D6DE9B8001B5C13 /* TransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A282B1D6DE9B8001B5C13 /* TransformView.m */; };
+		661A282F1D6DEF21001B5C13 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A282E1D6DEF21001B5C13 /* TransformViewController.m */; };
+		662E59D51D71175200909152 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59D41D71175200909152 /* GradientViewController.m */; };
+		662E59D81D71177600909152 /* BlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59D71D71177600909152 /* BlendViewController.m */; };
+		662E59DB1D7117D100909152 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59DA1D7117D100909152 /* GradientView.m */; };
+		662E59DE1D72651C00909152 /* PatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59DD1D72651C00909152 /* PatternView.m */; };
+		662E59E01D72751400909152 /* heart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 662E59DF1D72751400909152 /* heart.jpg */; };
+		662E59E31D7282FA00909152 /* PatternOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59E21D7282FA00909152 /* PatternOneController.m */; };
+		662E59E61D72891C00909152 /* PatternViewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59E51D72891C00909152 /* PatternViewTwo.m */; };
+		662E59E91D72905B00909152 /* PatternTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59E81D72905B00909152 /* PatternTwoController.m */; };
+		662E59EB1D72957700909152 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662E59EA1D72957700909152 /* CoreImage.framework */; };
+		662E59ED1D72981700909152 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662E59EC1D72981700909152 /* OpenGLES.framework */; };
+		662E59F01D72E15C00909152 /* CoreImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662E59EF1D72E15C00909152 /* CoreImageViewController.m */; };
+		6645CF4A1D75C2B400ACBCC8 /* PropertyAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6645CF491D75C2B400ACBCC8 /* PropertyAnimationController.m */; };
 		667AE4A61D67DFA900E14451 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4A51D67DFA900E14451 /* main.m */; };
 		667AE4A91D67DFA900E14451 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4A81D67DFA900E14451 /* AppDelegate.m */; };
 		667AE4AC1D67DFA900E14451 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4AB1D67DFA900E14451 /* ViewController.m */; };
@@ -14,9 +34,68 @@
 		667AE4B21D67DFA900E14451 /* ImgGraphicsDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4B01D67DFA900E14451 /* ImgGraphicsDemo.xcdatamodeld */; };
 		667AE4B41D67DFA900E14451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667AE4B31D67DFA900E14451 /* Assets.xcassets */; };
 		667AE4B71D67DFA900E14451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667AE4B51D67DFA900E14451 /* LaunchScreen.storyboard */; };
+		667AE4C11D67F0F800E14451 /* PointLineModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4C01D67F0F800E14451 /* PointLineModelController.m */; };
+		667AE4C41D67F98400E14451 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 667AE4C31D67F98400E14451 /* back.png */; };
+		667AE4D21D67FB3100E14451 /* GeometryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4C71D67FB3100E14451 /* GeometryView.m */; };
+		667AE4D31D67FB3100E14451 /* DashLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4C91D67FB3100E14451 /* DashLineView.m */; };
+		667AE4D41D67FB3100E14451 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4CB1D67FB3100E14451 /* TextView.m */; };
+		667AE4D51D67FB3100E14451 /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4CD1D67FB3100E14451 /* ShadowView.m */; };
+		667AE4D61D67FB3100E14451 /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4CF1D67FB3100E14451 /* PathView.m */; };
+		667AE4DA1D67FC4B00E14451 /* GeometryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4D91D67FC4B00E14451 /* GeometryViewController.m */; };
+		667AE4DD1D681B3E00E14451 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4DC1D681B3E00E14451 /* TextViewController.m */; };
+		667AE4E31D68328F00E14451 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4E21D68328F00E14451 /* ArcView.m */; };
+		667AE4E61D68374A00E14451 /* ArcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4E51D68374A00E14451 /* ArcViewController.m */; };
+		667AE4EB1D688E1300E14451 /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4EA1D688E1300E14451 /* PathViewController.m */; };
+		667AE4EE1D68A11C00E14451 /* CurveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4ED1D68A11C00E14451 /* CurveViewController.m */; };
+		667AE4F11D693DB800E14451 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4F01D693DB800E14451 /* DrawViewController.m */; };
+		668482921D748266008C2435 /* LayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668482911D748266008C2435 /* LayerController.m */; };
+		668482961D7489FD008C2435 /* TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668482951D7489FD008C2435 /* TransitionController.m */; };
+		668E75311D69FA810036E731 /* DrawPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668E75301D69FA810036E731 /* DrawPanelController.m */; };
+		66E107C71D6C7C81003AF4B2 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E107C61D6C7C81003AF4B2 /* UIImage+Bitmap.m */; };
+		66E107CA1D6CAD44003AF4B2 /* DrawBitmapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E107C91D6CAD44003AF4B2 /* DrawBitmapController.m */; };
+		66E107CC1D6CB053003AF4B2 /* fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66E107CB1D6CB053003AF4B2 /* fish.jpg */; };
+		66E107CE1D6CB0DC003AF4B2 /* fish.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 66E107CD1D6CB0DC003AF4B2 /* fish.jpeg */; };
+		66FA56AB1D6E8017004703EA /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4D11D67FB3100E14451 /* CurveView.m */; };
+		66FA56AC1D6E803B004703EA /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A28311D6DFAF7001B5C13 /* SnowView.m */; };
+		66FA56B51D6E8638004703EA /* CurveContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FA56B41D6E8638004703EA /* CurveContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660F896B1D6F39EF00AB2934 /* SkewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewView.h; sourceTree = "<group>"; };
+		660F896C1D6F39EF00AB2934 /* SkewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkewView.m; sourceTree = "<group>"; };
+		660F896E1D6F3D5000AB2934 /* SkewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewViewController.h; sourceTree = "<group>"; };
+		660F896F1D6F3D5000AB2934 /* SkewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkewViewController.m; sourceTree = "<group>"; };
+		660F89711D6F3FC800AB2934 /* BlendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendView.h; sourceTree = "<group>"; };
+		660F89721D6F3FC800AB2934 /* BlendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendView.m; sourceTree = "<group>"; };
+		661A282A1D6DE9B8001B5C13 /* TransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformView.h; sourceTree = "<group>"; };
+		661A282B1D6DE9B8001B5C13 /* TransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformView.m; sourceTree = "<group>"; };
+		661A282D1D6DEF21001B5C13 /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
+		661A282E1D6DEF21001B5C13 /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
+		661A28301D6DFAF7001B5C13 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		661A28311D6DFAF7001B5C13 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		661A28331D6DFFA5001B5C13 /* SnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		661A28341D6DFFA5001B5C13 /* SnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+		662E59D31D71175200909152 /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		662E59D41D71175200909152 /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		662E59D61D71177600909152 /* BlendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlendViewController.h; sourceTree = "<group>"; };
+		662E59D71D71177600909152 /* BlendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlendViewController.m; sourceTree = "<group>"; };
+		662E59D91D7117D100909152 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		662E59DA1D7117D100909152 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		662E59DC1D72651C00909152 /* PatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternView.h; sourceTree = "<group>"; };
+		662E59DD1D72651C00909152 /* PatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternView.m; sourceTree = "<group>"; };
+		662E59DF1D72751400909152 /* heart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart.jpg; sourceTree = "<group>"; };
+		662E59E11D7282FA00909152 /* PatternOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternOneController.h; sourceTree = "<group>"; };
+		662E59E21D7282FA00909152 /* PatternOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternOneController.m; sourceTree = "<group>"; };
+		662E59E41D72891C00909152 /* PatternViewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternViewTwo.h; sourceTree = "<group>"; };
+		662E59E51D72891C00909152 /* PatternViewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternViewTwo.m; sourceTree = "<group>"; };
+		662E59E71D72905B00909152 /* PatternTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternTwoController.h; sourceTree = "<group>"; };
+		662E59E81D72905B00909152 /* PatternTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternTwoController.m; sourceTree = "<group>"; };
+		662E59EA1D72957700909152 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		662E59EC1D72981700909152 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		662E59EE1D72E15C00909152 /* CoreImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreImageViewController.h; sourceTree = "<group>"; };
+		662E59EF1D72E15C00909152 /* CoreImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreImageViewController.m; sourceTree = "<group>"; };
+		6645CF481D75C2B400ACBCC8 /* PropertyAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyAnimationController.h; sourceTree = "<group>"; };
+		6645CF491D75C2B400ACBCC8 /* PropertyAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyAnimationController.m; sourceTree = "<group>"; };
 		667AE4A11D67DFA900E14451 /* ImgGraphicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgGraphicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667AE4A51D67DFA900E14451 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		667AE4A71D67DFA900E14451 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +107,55 @@
 		667AE4B31D67DFA900E14451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667AE4B61D67DFA900E14451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		667AE4B81D67DFA900E14451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667AE4BF1D67F0F800E14451 /* PointLineModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointLineModelController.h; sourceTree = "<group>"; };
+		667AE4C01D67F0F800E14451 /* PointLineModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointLineModelController.m; sourceTree = "<group>"; };
+		667AE4C31D67F98400E14451 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		667AE4C61D67FB3100E14451 /* GeometryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryView.h; sourceTree = "<group>"; };
+		667AE4C71D67FB3100E14451 /* GeometryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryView.m; sourceTree = "<group>"; };
+		667AE4C81D67FB3100E14451 /* DashLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashLineView.h; sourceTree = "<group>"; };
+		667AE4C91D67FB3100E14451 /* DashLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashLineView.m; sourceTree = "<group>"; };
+		667AE4CA1D67FB3100E14451 /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		667AE4CB1D67FB3100E14451 /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		667AE4CC1D67FB3100E14451 /* ShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowView.h; sourceTree = "<group>"; };
+		667AE4CD1D67FB3100E14451 /* ShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowView.m; sourceTree = "<group>"; };
+		667AE4CE1D67FB3100E14451 /* PathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		667AE4CF1D67FB3100E14451 /* PathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
+		667AE4D01D67FB3100E14451 /* CurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveView.h; sourceTree = "<group>"; };
+		667AE4D11D67FB3100E14451 /* CurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveView.m; sourceTree = "<group>"; };
+		667AE4D81D67FC4B00E14451 /* GeometryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryViewController.h; sourceTree = "<group>"; };
+		667AE4D91D67FC4B00E14451 /* GeometryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryViewController.m; sourceTree = "<group>"; };
+		667AE4DB1D681B3E00E14451 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		667AE4DC1D681B3E00E14451 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		667AE4DE1D6829E600E14451 /* ShadowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowViewController.h; sourceTree = "<group>"; };
+		667AE4DF1D6829E600E14451 /* ShadowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowViewController.m; sourceTree = "<group>"; };
+		667AE4E11D68328F00E14451 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		667AE4E21D68328F00E14451 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		667AE4E41D68374A00E14451 /* ArcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcViewController.h; sourceTree = "<group>"; };
+		667AE4E51D68374A00E14451 /* ArcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcViewController.m; sourceTree = "<group>"; };
+		667AE4E71D68387100E14451 /* Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		667AE4E81D68391300E14451 /* CurveContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurveContext.h; sourceTree = "<group>"; };
+		667AE4E91D688E1300E14451 /* PathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
+		667AE4EA1D688E1300E14451 /* PathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
+		667AE4EC1D68A11C00E14451 /* CurveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveViewController.h; sourceTree = "<group>"; };
+		667AE4ED1D68A11C00E14451 /* CurveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveViewController.m; sourceTree = "<group>"; };
+		667AE4EF1D693DB800E14451 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		667AE4F01D693DB800E14451 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		668482901D748266008C2435 /* LayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerController.h; sourceTree = "<group>"; };
+		668482911D748266008C2435 /* LayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerController.m; sourceTree = "<group>"; };
+		668482941D7489FD008C2435 /* TransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionController.h; sourceTree = "<group>"; };
+		668482951D7489FD008C2435 /* TransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionController.m; sourceTree = "<group>"; };
+		668E752F1D69FA810036E731 /* DrawPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPanelController.h; sourceTree = "<group>"; };
+		668E75301D69FA810036E731 /* DrawPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPanelController.m; sourceTree = "<group>"; };
+		668E75321D69FA910036E731 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		668E75331D69FA910036E731 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		668E75351D69FA9F0036E731 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		66E107C51D6C7C81003AF4B2 /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		66E107C61D6C7C81003AF4B2 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		66E107C81D6CAD44003AF4B2 /* DrawBitmapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBitmapController.h; sourceTree = "<group>"; };
+		66E107C91D6CAD44003AF4B2 /* DrawBitmapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBitmapController.m; sourceTree = "<group>"; };
+		66E107CB1D6CB053003AF4B2 /* fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpg; sourceTree = "<group>"; };
+		66E107CD1D6CB0DC003AF4B2 /* fish.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpeg; sourceTree = "<group>"; };
+		66FA56B41D6E8638004703EA /* CurveContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +163,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662E59ED1D72981700909152 /* OpenGLES.framework in Frameworks */,
+				662E59EB1D72957700909152 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +174,8 @@
 		667AE4981D67DFA900E14451 = {
 			isa = PBXGroup;
 			children = (
+				662E59EC1D72981700909152 /* OpenGLES.framework */,
+				662E59EA1D72957700909152 /* CoreImage.framework */,
 				667AE4A31D67DFA900E14451 /* ImgGraphicsDemo */,
 				667AE4A21D67DFA900E14451 /* Products */,
 			);
@@ -64,6 +196,13 @@
 				667AE4A81D67DFA900E14451 /* AppDelegate.m */,
 				667AE4AA1D67DFA900E14451 /* ViewController.h */,
 				667AE4AB1D67DFA900E14451 /* ViewController.m */,
+				668482931D7489D8008C2435 /* animation */,
+				6684828F1D748247008C2435 /* layer */,
+				66E107C41D6C7C43003AF4B2 /* drawbitmap */,
+				668E752E1D69FA690036E731 /* drawpanel */,
+				667AE4C51D67FAFC00E14451 /* customeview */,
+				667AE4C21D67F97A00E14451 /* img */,
+				667AE4BE1D67F0BD00E14451 /* contents */,
 				667AE4AD1D67DFA900E14451 /* Main.storyboard */,
 				667AE4B31D67DFA900E14451 /* Assets.xcassets */,
 				667AE4B51D67DFA900E14451 /* LaunchScreen.storyboard */,
@@ -80,6 +219,137 @@
 				667AE4A51D67DFA900E14451 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		667AE4BE1D67F0BD00E14451 /* contents */ = {
+			isa = PBXGroup;
+			children = (
+				667AE4BF1D67F0F800E14451 /* PointLineModelController.h */,
+				667AE4C01D67F0F800E14451 /* PointLineModelController.m */,
+				667AE4D81D67FC4B00E14451 /* GeometryViewController.h */,
+				667AE4D91D67FC4B00E14451 /* GeometryViewController.m */,
+				667AE4DB1D681B3E00E14451 /* TextViewController.h */,
+				667AE4DC1D681B3E00E14451 /* TextViewController.m */,
+				667AE4DE1D6829E600E14451 /* ShadowViewController.h */,
+				667AE4DF1D6829E600E14451 /* ShadowViewController.m */,
+				667AE4E41D68374A00E14451 /* ArcViewController.h */,
+				667AE4E51D68374A00E14451 /* ArcViewController.m */,
+				667AE4E91D688E1300E14451 /* PathViewController.h */,
+				667AE4EA1D688E1300E14451 /* PathViewController.m */,
+				667AE4EC1D68A11C00E14451 /* CurveViewController.h */,
+				667AE4ED1D68A11C00E14451 /* CurveViewController.m */,
+				667AE4EF1D693DB800E14451 /* DrawViewController.h */,
+				667AE4F01D693DB800E14451 /* DrawViewController.m */,
+				661A282D1D6DEF21001B5C13 /* TransformViewController.h */,
+				661A282E1D6DEF21001B5C13 /* TransformViewController.m */,
+				661A28331D6DFFA5001B5C13 /* SnowViewController.h */,
+				661A28341D6DFFA5001B5C13 /* SnowViewController.m */,
+				660F896E1D6F3D5000AB2934 /* SkewViewController.h */,
+				660F896F1D6F3D5000AB2934 /* SkewViewController.m */,
+				662E59D31D71175200909152 /* GradientViewController.h */,
+				662E59D41D71175200909152 /* GradientViewController.m */,
+				662E59D61D71177600909152 /* BlendViewController.h */,
+				662E59D71D71177600909152 /* BlendViewController.m */,
+				662E59E11D7282FA00909152 /* PatternOneController.h */,
+				662E59E21D7282FA00909152 /* PatternOneController.m */,
+				662E59E71D72905B00909152 /* PatternTwoController.h */,
+				662E59E81D72905B00909152 /* PatternTwoController.m */,
+				662E59EE1D72E15C00909152 /* CoreImageViewController.h */,
+				662E59EF1D72E15C00909152 /* CoreImageViewController.m */,
+			);
+			name = contents;
+			sourceTree = "<group>";
+		};
+		667AE4C21D67F97A00E14451 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				662E59DF1D72751400909152 /* heart.jpg */,
+				66E107CD1D6CB0DC003AF4B2 /* fish.jpeg */,
+				66E107CB1D6CB053003AF4B2 /* fish.jpg */,
+				667AE4C31D67F98400E14451 /* back.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		667AE4C51D67FAFC00E14451 /* customeview */ = {
+			isa = PBXGroup;
+			children = (
+				667AE4E71D68387100E14451 /* Context.h */,
+				667AE4E81D68391300E14451 /* CurveContext.h */,
+				66FA56B41D6E8638004703EA /* CurveContext.m */,
+				667AE4C61D67FB3100E14451 /* GeometryView.h */,
+				667AE4C71D67FB3100E14451 /* GeometryView.m */,
+				667AE4C81D67FB3100E14451 /* DashLineView.h */,
+				667AE4C91D67FB3100E14451 /* DashLineView.m */,
+				667AE4CA1D67FB3100E14451 /* TextView.h */,
+				667AE4CB1D67FB3100E14451 /* TextView.m */,
+				667AE4CC1D67FB3100E14451 /* ShadowView.h */,
+				667AE4CD1D67FB3100E14451 /* ShadowView.m */,
+				667AE4CE1D67FB3100E14451 /* PathView.h */,
+				667AE4CF1D67FB3100E14451 /* PathView.m */,
+				667AE4D01D67FB3100E14451 /* CurveView.h */,
+				667AE4D11D67FB3100E14451 /* CurveView.m */,
+				667AE4E11D68328F00E14451 /* ArcView.h */,
+				667AE4E21D68328F00E14451 /* ArcView.m */,
+				661A282A1D6DE9B8001B5C13 /* TransformView.h */,
+				661A282B1D6DE9B8001B5C13 /* TransformView.m */,
+				661A28301D6DFAF7001B5C13 /* SnowView.h */,
+				661A28311D6DFAF7001B5C13 /* SnowView.m */,
+				660F896B1D6F39EF00AB2934 /* SkewView.h */,
+				660F896C1D6F39EF00AB2934 /* SkewView.m */,
+				660F89711D6F3FC800AB2934 /* BlendView.h */,
+				660F89721D6F3FC800AB2934 /* BlendView.m */,
+				662E59D91D7117D100909152 /* GradientView.h */,
+				662E59DA1D7117D100909152 /* GradientView.m */,
+				662E59DC1D72651C00909152 /* PatternView.h */,
+				662E59DD1D72651C00909152 /* PatternView.m */,
+				662E59E41D72891C00909152 /* PatternViewTwo.h */,
+				662E59E51D72891C00909152 /* PatternViewTwo.m */,
+			);
+			name = customeview;
+			sourceTree = "<group>";
+		};
+		6684828F1D748247008C2435 /* layer */ = {
+			isa = PBXGroup;
+			children = (
+				668482901D748266008C2435 /* LayerController.h */,
+				668482911D748266008C2435 /* LayerController.m */,
+			);
+			name = layer;
+			sourceTree = "<group>";
+		};
+		668482931D7489D8008C2435 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				668482941D7489FD008C2435 /* TransitionController.h */,
+				668482951D7489FD008C2435 /* TransitionController.m */,
+				6645CF481D75C2B400ACBCC8 /* PropertyAnimationController.h */,
+				6645CF491D75C2B400ACBCC8 /* PropertyAnimationController.m */,
+			);
+			name = animation;
+			sourceTree = "<group>";
+		};
+		668E752E1D69FA690036E731 /* drawpanel */ = {
+			isa = PBXGroup;
+			children = (
+				668E752F1D69FA810036E731 /* DrawPanelController.h */,
+				668E75301D69FA810036E731 /* DrawPanelController.m */,
+				668E75321D69FA910036E731 /* DrawView.h */,
+				668E75331D69FA910036E731 /* DrawView.m */,
+				668E75351D69FA9F0036E731 /* Constant.h */,
+			);
+			name = drawpanel;
+			sourceTree = "<group>";
+		};
+		66E107C41D6C7C43003AF4B2 /* drawbitmap */ = {
+			isa = PBXGroup;
+			children = (
+				66E107C51D6C7C81003AF4B2 /* UIImage+Bitmap.h */,
+				66E107C61D6C7C81003AF4B2 /* UIImage+Bitmap.m */,
+				66E107C81D6CAD44003AF4B2 /* DrawBitmapController.h */,
+				66E107C91D6CAD44003AF4B2 /* DrawBitmapController.m */,
+			);
+			name = drawbitmap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +409,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667AE4C41D67F98400E14451 /* back.png in Resources */,
+				66E107CC1D6CB053003AF4B2 /* fish.jpg in Resources */,
 				667AE4B71D67DFA900E14451 /* LaunchScreen.storyboard in Resources */,
+				66E107CE1D6CB0DC003AF4B2 /* fish.jpeg in Resources */,
+				662E59E01D72751400909152 /* heart.jpg in Resources */,
 				667AE4B41D67DFA900E14451 /* Assets.xcassets in Resources */,
 				667AE4AF1D67DFA900E14451 /* Main.storyboard in Resources */,
 			);
@@ -152,9 +426,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662E59D51D71175200909152 /* GradientViewController.m in Sources */,
+				66FA56AC1D6E803B004703EA /* SnowView.m in Sources */,
+				668482961D7489FD008C2435 /* TransitionController.m in Sources */,
+				662E59DB1D7117D100909152 /* GradientView.m in Sources */,
+				660F89731D6F3FC800AB2934 /* BlendView.m in Sources */,
+				662E59E61D72891C00909152 /* PatternViewTwo.m in Sources */,
+				662E59E91D72905B00909152 /* PatternTwoController.m in Sources */,
+				66FA56AB1D6E8017004703EA /* CurveView.m in Sources */,
+				6608F5D41D6E0259009CDA06 /* SnowViewController.m in Sources */,
+				6608F5D31D6E0243009CDA06 /* ShadowViewController.m in Sources */,
+				661804E21D6B48D700BB0AC8 /* DrawView.m in Sources */,
+				661A282C1D6DE9B8001B5C13 /* TransformView.m in Sources */,
+				66E107C71D6C7C81003AF4B2 /* UIImage+Bitmap.m in Sources */,
+				662E59F01D72E15C00909152 /* CoreImageViewController.m in Sources */,
+				668482921D748266008C2435 /* LayerController.m in Sources */,
+				662E59DE1D72651C00909152 /* PatternView.m in Sources */,
+				66E107CA1D6CAD44003AF4B2 /* DrawBitmapController.m in Sources */,
+				660F89701D6F3D5000AB2934 /* SkewViewController.m in Sources */,
+				667AE4D51D67FB3100E14451 /* ShadowView.m in Sources */,
+				667AE4DA1D67FC4B00E14451 /* GeometryViewController.m in Sources */,
+				667AE4E61D68374A00E14451 /* ArcViewController.m in Sources */,
+				667AE4DD1D681B3E00E14451 /* TextViewController.m in Sources */,
+				667AE4D21D67FB3100E14451 /* GeometryView.m in Sources */,
+				668E75311D69FA810036E731 /* DrawPanelController.m in Sources */,
 				667AE4AC1D67DFA900E14451 /* ViewController.m in Sources */,
+				662E59D81D71177600909152 /* BlendViewController.m in Sources */,
+				662E59E31D7282FA00909152 /* PatternOneController.m in Sources */,
+				66FA56B51D6E8638004703EA /* CurveContext.m in Sources */,
+				667AE4D61D67FB3100E14451 /* PathView.m in Sources */,
+				667AE4EE1D68A11C00E14451 /* CurveViewController.m in Sources */,
+				660F896D1D6F39EF00AB2934 /* SkewView.m in Sources */,
 				667AE4A91D67DFA900E14451 /* AppDelegate.m in Sources */,
+				661A282F1D6DEF21001B5C13 /* TransformViewController.m in Sources */,
+				6645CF4A1D75C2B400ACBCC8 /* PropertyAnimationController.m in Sources */,
+				667AE4C11D67F0F800E14451 /* PointLineModelController.m in Sources */,
+				667AE4EB1D688E1300E14451 /* PathViewController.m in Sources */,
 				667AE4A61D67DFA900E14451 /* main.m in Sources */,
+				667AE4F11D693DB800E14451 /* DrawViewController.m in Sources */,
+				667AE4D41D67FB3100E14451 /* TextView.m in Sources */,
+				667AE4E31D68328F00E14451 /* ArcView.m in Sources */,
+				667AE4D31D67FB3100E14451 /* DashLineView.m in Sources */,
 				667AE4B21D67DFA900E14451 /* ImgGraphicsDemo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +616,7 @@
 				667AE4BD1D67DFA900E14451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
