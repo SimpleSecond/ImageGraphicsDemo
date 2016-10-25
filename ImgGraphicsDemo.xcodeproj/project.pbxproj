@@ -50,6 +50,7 @@
 		667AE4F11D693DB800E14451 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4F01D693DB800E14451 /* DrawViewController.m */; };
 		668482921D748266008C2435 /* LayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668482911D748266008C2435 /* LayerController.m */; };
 		668482961D7489FD008C2435 /* TransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668482951D7489FD008C2435 /* TransitionController.m */; };
+		66872B361DAE0ADA00D4B58E /* EaseBlankPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66872B351DAE0ADA00D4B58E /* EaseBlankPageView.m */; };
 		668E75311D69FA810036E731 /* DrawPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668E75301D69FA810036E731 /* DrawPanelController.m */; };
 		66E107C71D6C7C81003AF4B2 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E107C61D6C7C81003AF4B2 /* UIImage+Bitmap.m */; };
 		66E107CA1D6CAD44003AF4B2 /* DrawBitmapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E107C91D6CAD44003AF4B2 /* DrawBitmapController.m */; };
@@ -58,9 +59,11 @@
 		66FA56AB1D6E8017004703EA /* CurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AE4D11D67FB3100E14451 /* CurveView.m */; };
 		66FA56AC1D6E803B004703EA /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A28311D6DFAF7001B5C13 /* SnowView.m */; };
 		66FA56B51D6E8638004703EA /* CurveContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FA56B41D6E8638004703EA /* CurveContext.m */; };
+		E59C1C5EC0A7A997E42D39FB /* libPods-ImgGraphicsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64757FB1454765FB0E803114 /* libPods-ImgGraphicsDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64757FB1454765FB0E803114 /* libPods-ImgGraphicsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImgGraphicsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		660F896B1D6F39EF00AB2934 /* SkewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewView.h; sourceTree = "<group>"; };
 		660F896C1D6F39EF00AB2934 /* SkewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkewView.m; sourceTree = "<group>"; };
 		660F896E1D6F3D5000AB2934 /* SkewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewViewController.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 		668482911D748266008C2435 /* LayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerController.m; sourceTree = "<group>"; };
 		668482941D7489FD008C2435 /* TransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionController.h; sourceTree = "<group>"; };
 		668482951D7489FD008C2435 /* TransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionController.m; sourceTree = "<group>"; };
+		66872B341DAE0ADA00D4B58E /* EaseBlankPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseBlankPageView.h; sourceTree = "<group>"; };
+		66872B351DAE0ADA00D4B58E /* EaseBlankPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseBlankPageView.m; sourceTree = "<group>"; };
 		668E752F1D69FA810036E731 /* DrawPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawPanelController.h; sourceTree = "<group>"; };
 		668E75301D69FA810036E731 /* DrawPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawPanelController.m; sourceTree = "<group>"; };
 		668E75321D69FA910036E731 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
@@ -156,6 +161,8 @@
 		66E107CB1D6CB053003AF4B2 /* fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpg; sourceTree = "<group>"; };
 		66E107CD1D6CB0DC003AF4B2 /* fish.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish.jpeg; sourceTree = "<group>"; };
 		66FA56B41D6E8638004703EA /* CurveContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveContext.m; sourceTree = "<group>"; };
+		E0A35723B56406D81476B644 /* Pods-ImgGraphicsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgGraphicsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImgGraphicsDemo/Pods-ImgGraphicsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F9566A1398A713FB12E1E596 /* Pods-ImgGraphicsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgGraphicsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImgGraphicsDemo/Pods-ImgGraphicsDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,12 +172,22 @@
 			files = (
 				662E59ED1D72981700909152 /* OpenGLES.framework in Frameworks */,
 				662E59EB1D72957700909152 /* CoreImage.framework in Frameworks */,
+				E59C1C5EC0A7A997E42D39FB /* libPods-ImgGraphicsDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38A7A4C7CB0B89B9EA3C7E7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0A35723B56406D81476B644 /* Pods-ImgGraphicsDemo.debug.xcconfig */,
+				F9566A1398A713FB12E1E596 /* Pods-ImgGraphicsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		667AE4981D67DFA900E14451 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +195,8 @@
 				662E59EA1D72957700909152 /* CoreImage.framework */,
 				667AE4A31D67DFA900E14451 /* ImgGraphicsDemo */,
 				667AE4A21D67DFA900E14451 /* Products */,
+				38A7A4C7CB0B89B9EA3C7E7D /* Pods */,
+				E7FB66BA35078AC303C2A304 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -305,6 +324,8 @@
 				662E59DD1D72651C00909152 /* PatternView.m */,
 				662E59E41D72891C00909152 /* PatternViewTwo.h */,
 				662E59E51D72891C00909152 /* PatternViewTwo.m */,
+				66872B341DAE0ADA00D4B58E /* EaseBlankPageView.h */,
+				66872B351DAE0ADA00D4B58E /* EaseBlankPageView.m */,
 			);
 			name = customeview;
 			sourceTree = "<group>";
@@ -352,6 +373,14 @@
 			name = drawbitmap;
 			sourceTree = "<group>";
 		};
+		E7FB66BA35078AC303C2A304 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64757FB1454765FB0E803114 /* libPods-ImgGraphicsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -359,9 +388,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 667AE4BB1D67DFA900E14451 /* Build configuration list for PBXNativeTarget "ImgGraphicsDemo" */;
 			buildPhases = (
+				80E88AB76BAA1D263DC29C17 /* [CP] Check Pods Manifest.lock */,
 				667AE49D1D67DFA900E14451 /* Sources */,
 				667AE49E1D67DFA900E14451 /* Frameworks */,
 				667AE49F1D67DFA900E14451 /* Resources */,
+				A814BE8593457F28B8E6A63F /* [CP] Embed Pods Frameworks */,
+				E8E433523830064903732BE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -421,6 +453,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80E88AB76BAA1D263DC29C17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A814BE8593457F28B8E6A63F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImgGraphicsDemo/Pods-ImgGraphicsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8E433523830064903732BE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImgGraphicsDemo/Pods-ImgGraphicsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		667AE49D1D67DFA900E14451 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -442,6 +522,7 @@
 				662E59F01D72E15C00909152 /* CoreImageViewController.m in Sources */,
 				668482921D748266008C2435 /* LayerController.m in Sources */,
 				662E59DE1D72651C00909152 /* PatternView.m in Sources */,
+				66872B361DAE0ADA00D4B58E /* EaseBlankPageView.m in Sources */,
 				66E107CA1D6CAD44003AF4B2 /* DrawBitmapController.m in Sources */,
 				660F89701D6F3D5000AB2934 /* SkewViewController.m in Sources */,
 				667AE4D51D67FB3100E14451 /* ShadowView.m in Sources */,
@@ -530,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -568,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -577,6 +658,7 @@
 		};
 		667AE4BC1D67DFA900E14451 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A35723B56406D81476B644 /* Pods-ImgGraphicsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImgGraphicsDemo/Info.plist;
@@ -588,6 +670,7 @@
 		};
 		667AE4BD1D67DFA900E14451 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9566A1398A713FB12E1E596 /* Pods-ImgGraphicsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImgGraphicsDemo/Info.plist;

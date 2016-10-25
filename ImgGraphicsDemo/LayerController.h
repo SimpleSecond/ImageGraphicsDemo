@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LayerController : UIViewController
+@interface LayerController : UIViewController <CALayerDelegate>
 
 @end
